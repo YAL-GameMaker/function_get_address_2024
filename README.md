@@ -9,6 +9,10 @@ For older GameMaker versions, check out
 This is an example of how to get pointers to GameMaker's built-in functions
 and pass them to native extensions.
 
+This enables you to call built-in functions (or user-defined ones!)
+from native code, which can be used to create faster and more convenient extensions -
+see [Apollo](https://github.com/YAL-GameMaker/Apollo) for an example.
+
 ## How this works
 `ptr(method(undefined, a_built_in_function))` gives you a pointer to a method-struct,
 which, among other things, contains a pointer to the function itself.
