@@ -30,6 +30,7 @@ For example,
 ```gml
 var _game_end = function_get_address(game_end);
 show_debug_message(_game_end);
+my_native_extension_function(_game_end); // should have argument set as string/pointer type
 ```
 
 For use in your own extensions, you can either bundle the `function_get_address` extension with yours (it's 4KB!),
