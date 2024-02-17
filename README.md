@@ -21,6 +21,33 @@ There is currently no way to get a function pointer from these using `YYRunnerIn
 but we can figure out the offset ourselves by comparing layout of two method structs
 pointing at the same built-in function.
 
+<details><summary>Further explanation</summary>
+
+The "method" type inherits from the general "struct" type
+(which is why you can do `method.v = 1`)
+and has a handful of pointers, including the following:
+- A pointer to a VM script struct.  
+  Not much is known about these.
+- A pointer to a built-in function.
+  These are structured like  
+  `void fun(RValue& result, CInstance* self, CInstance* other, int argCount, RValue* argArray)`
+- A pointer to a YYC script if we're using YYC.
+  These are structured like  
+  `RValue& scr(CInstance* self, CInstance* other, RValue& result, int argCount, RValue** argArray)`  
+  You can see these in your generated `.gml.cpp` files.
+
+The three appear next to each other in all GameMaker versions that support structs.
+
+And thus, if we have two method-structs for the same built-in function,
+we can look for the "null, same pointer, null" pattern inside
+to figure out where the built-in function field is.
+
+With the offset calculated, grabbing a function pointer
+is a matter of adding the offset to a method-struct address and reading the address from there.
+Nice and fast.
+
+</details>
+
 ## How to use it
 - Import the extension
 - Сall `function_get_address` and alike to get pointers to built-in functions.  
