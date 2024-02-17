@@ -23,10 +23,14 @@ pointing at the same built-in function.
 
 ## How to use it
 - Import the extension
-- Call `function_get_address_init()`
-- You can now call
-  `function_get_address` (e.g. `function_get_address(show_debug_message)`)
-  and alike to get pointers to built-in functions.
+- Сall `function_get_address` and alike to get pointers to built-in functions.  
+  The function will return `pointer_null` if the DLL is missing or the provided function is invalid.
+
+For example,
+```gml
+var _game_end = function_get_address(game_end);
+show_debug_message(_game_end);
+```
 
 For use in your own extensions, you can either bundle the `function_get_address` extension with yours (it's 4KB!),
 or borrow the initializer code.

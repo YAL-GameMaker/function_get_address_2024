@@ -34,13 +34,10 @@
         {"resourceType":"GMProxyFile","resourceVersion":"1.0","name":"function_get_address_x64.dll","TargetMask":6,},
       ],"uncompress":false,"usesRunnerInterface":false,},
     {"resourceType":"GMExtensionFile","resourceVersion":"1.0","name":"","constants":[],"copyToTargets":9223372036854775807,"filename":"function_get_address.gml","final":"","functions":[
-        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"function_get_address_init","argCount":0,"args":[],"documentation":"","externalName":"function_get_address_init","help":"function_get_address_init()->bool","hidden":false,"kind":2,"returnType":2,},
         {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"function_get_address","argCount":1,"args":[
             2,
           ],"documentation":"","externalName":"function_get_address","help":"function_get_address(func)->ptr","hidden":false,"kind":2,"returnType":2,},
-      ],"init":"","kind":2,"order":[
-        {"name":"function_get_address_init","path":"extensions/function_get_address/function_get_address.yy",},
-      ],"origname":"extensions\\gml.gml","ProxyFiles":[],"uncompress":false,"usesRunnerInterface":false,},
+      ],"init":"","kind":2,"order":[],"origname":"extensions\\gml.gml","ProxyFiles":[],"uncompress":false,"usesRunnerInterface":false,},
     {"resourceType":"GMExtensionFile","resourceVersion":"1.0","name":"","constants":[],"copyToTargets":-1,"filename":"autogen.gml","final":"","functions":[],"init":"","kind":2,"order":[],"origname":"extensions\\autogen.gml","ProxyFiles":[],"uncompress":false,"usesRunnerInterface":false,},
   ],
   "gradleinject": "",
