@@ -7,7 +7,7 @@
 
 #pragma region configuration
 
-#define _trace // requires user32.lib;Kernel32.lib
+//#define _trace // requires user32.lib;Kernel32.lib
 
 #ifdef TINY // common things to implement
 //#define tiny_memset
