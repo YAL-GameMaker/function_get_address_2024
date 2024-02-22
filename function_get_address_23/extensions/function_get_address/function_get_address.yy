@@ -18,39 +18,29 @@
   "exportToGame": true,
   "extensionVersion": "1.0.0",
   "files": [
-    {"filename":"function_get_address.dll","origname":"extensions\\function_get_address.dll","init":"","final":"","kind":1,"uncompress":false,"functions":[
-        {"externalName":"function_get_address_init_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
+    {"resourceType":"GMExtensionFile","resourceVersion":"1.0","name":"","constants":[],"copyToTargets":9223372036854775807,"filename":"function_get_address.dll","final":"","functions":[
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"function_get_address_init_raw","argCount":4,"args":[
             1,
             1,
-          ],"resourceVersion":"1.0","name":"function_get_address_init_raw","tags":[],"resourceType":"GMExtensionFunction",},
-        {"externalName":"function_get_address_raw","kind":11,"help":"","hidden":true,"returnType":2,"argCount":2,"args":[
             1,
             1,
-          ],"resourceVersion":"1.0","name":"function_get_address_raw","tags":[],"resourceType":"GMExtensionFunction",},
-      ],"constants":[
-        
-      ],"ProxyFiles":[
-        {"name":"function_get_address_x64.dll","resourceVersion":"1.0","resourceType":"GMProxyFile","TargetMask":6,},
-      ],"copyToTargets":9223372036854775807,"order":[
+          ],"documentation":"","externalName":"function_get_address_init_raw","help":"","hidden":true,"kind":11,"returnType":2,},
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"function_get_address_raw","argCount":2,"args":[
+            1,
+            1,
+          ],"documentation":"","externalName":"function_get_address_raw","help":"","hidden":true,"kind":11,"returnType":2,},
+      ],"init":"","kind":1,"order":[
         {"name":"function_get_address_init_raw","path":"extensions/function_get_address/function_get_address.yy",},
         {"name":"function_get_address_raw","path":"extensions/function_get_address/function_get_address.yy",},
-      ],"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMExtensionFile",},
-    {"filename":"function_get_address.gml","origname":"extensions\\gml.gml","init":"","final":"","kind":2,"uncompress":false,"functions":[
-        {"externalName":"function_get_address","kind":2,"help":"function_get_address(func)->ptr","hidden":false,"returnType":2,"argCount":1,"args":[
+      ],"origname":"extensions\\function_get_address.dll","ProxyFiles":[
+        {"resourceType":"GMProxyFile","resourceVersion":"1.0","name":"function_get_address_x64.dll","TargetMask":6,},
+      ],"uncompress":false,"usesRunnerInterface":false,},
+    {"resourceType":"GMExtensionFile","resourceVersion":"1.0","name":"","constants":[],"copyToTargets":9223372036854775807,"filename":"function_get_address.gml","final":"","functions":[
+        {"resourceType":"GMExtensionFunction","resourceVersion":"1.0","name":"function_get_address","argCount":1,"args":[
             2,
-          ],"resourceVersion":"1.0","name":"function_get_address","tags":[],"resourceType":"GMExtensionFunction",},
-      ],"constants":[
-        
-      ],"ProxyFiles":[],"copyToTargets":9223372036854775807,"order":[
-        {"name":"function_get_address","path":"extensions/function_get_address/function_get_address.yy",},
-      ],"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMExtensionFile",},
-    {"filename":"autogen.gml","origname":"extensions\\autogen.gml","init":"","final":"","kind":2,"uncompress":false,"functions":[
-        
-      ],"constants":[
-        
-      ],"ProxyFiles":[],"copyToTargets":-1,"order":[
-        
-      ],"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMExtensionFile",},
+          ],"documentation":"","externalName":"function_get_address","help":"function_get_address(func)->ptr","hidden":false,"kind":2,"returnType":2,},
+      ],"init":"","kind":2,"order":[],"origname":"extensions\\gml.gml","ProxyFiles":[],"uncompress":false,"usesRunnerInterface":false,},
+    {"resourceType":"GMExtensionFile","resourceVersion":"1.0","name":"","constants":[],"copyToTargets":-1,"filename":"autogen.gml","final":"","functions":[],"init":"","kind":2,"order":[],"origname":"extensions\\autogen.gml","ProxyFiles":[],"uncompress":false,"usesRunnerInterface":false,},
   ],
   "gradleinject": "",
   "hasConvertedCodeInjection": true,

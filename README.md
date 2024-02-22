@@ -40,7 +40,7 @@ The three appear next to each other in all GameMaker versions that support struc
 
 And thus, if we have two method-structs for the same built-in function,
 we can look for the "null, same pointer, null" pattern inside
-to figure out where the built-in function field is.
+to figure out where the built-in function field is, and compare it against a non-function method struct (which will have the middle pointer as null) to be sure.
 
 With the offset calculated, grabbing a function pointer
 is a matter of adding the offset to a method-struct address and reading the address from there.
