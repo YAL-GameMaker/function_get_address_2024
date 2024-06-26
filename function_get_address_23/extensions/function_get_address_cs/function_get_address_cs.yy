@@ -1,6 +1,6 @@
 {
   "$GMExtension":"",
-  "%Name":"function_get_address",
+  "%Name":"function_get_address_cs",
   "androidactivityinject":"",
   "androidclassname":"",
   "androidcodeinjection":"",
@@ -16,16 +16,14 @@
   "exportToGame":true,
   "extensionVersion":"1.0.0",
   "files":[
-    {"$GMExtensionFile":"","%Name":"","constants":[],"copyToTargets":9223372036854775807,"filename":"function_get_address.dll","final":"","functions":[
-        {"$GMExtensionFunction":"","%Name":"function_get_address_init_raw","argCount":4,"args":[1,1,1,1,],"documentation":"","externalName":"function_get_address_init_raw","help":"","hidden":true,"kind":11,"name":"function_get_address_init_raw","resourceType":"GMExtensionFunction","resourceVersion":"2.0","returnType":2,},
-        {"$GMExtensionFunction":"","%Name":"function_get_address_raw","argCount":2,"args":[1,1,],"documentation":"","externalName":"function_get_address_raw","help":"","hidden":true,"kind":11,"name":"function_get_address_raw","resourceType":"GMExtensionFunction","resourceVersion":"2.0","returnType":2,},
-      ],"init":"","kind":1,"name":"","order":[
-        {"name":"function_get_address_init_raw","path":"extensions/function_get_address/function_get_address.yy",},
-        {"name":"function_get_address_raw","path":"extensions/function_get_address/function_get_address.yy",},
-      ],"origname":"extensions\\function_get_address.dll","ProxyFiles":[
-        {"$GMProxyFile":"","%Name":"function_get_address_x64.dll","name":"function_get_address_x64.dll","resourceType":"GMProxyFile","resourceVersion":"2.0","TargetMask":6,},
+    {"$GMExtensionFile":"","%Name":"","constants":[],"copyToTargets":9223372036854775807,"filename":"function_get_address_cs.dll","final":"","functions":[
+        {"$GMExtensionFunction":"","%Name":"dllcs_test_call_func","argCount":1,"args":[1,],"documentation":"","externalName":"dllcs_test_call_func","help":"","hidden":true,"kind":11,"name":"dllcs_test_call_func","resourceType":"GMExtensionFunction","resourceVersion":"2.0","returnType":2,},
+        {"$GMExtensionFunction":"","%Name":"dllcs_test_store_script_execute","argCount":1,"args":[1,],"documentation":"","externalName":"dllcs_test_store_script_execute","help":"","hidden":true,"kind":11,"name":"dllcs_test_store_script_execute","resourceType":"GMExtensionFunction","resourceVersion":"2.0","returnType":2,},
+        {"$GMExtensionFunction":"","%Name":"dllcs_test_call_script","argCount":1,"args":[2,],"documentation":"","externalName":"dllcs_test_call_script","help":"","hidden":true,"kind":11,"name":"dllcs_test_call_script","resourceType":"GMExtensionFunction","resourceVersion":"2.0","returnType":2,},
+      ],"init":"","kind":1,"name":"","order":[],"origname":"extensions\\function_get_address.dll","ProxyFiles":[
+        {"$GMProxyFile":"","%Name":"function_get_address_cs_x64.dll","name":"function_get_address_cs_x64.dll","resourceType":"GMProxyFile","resourceVersion":"2.0","TargetMask":6,},
       ],"resourceType":"GMExtensionFile","resourceVersion":"2.0","uncompress":false,"usesRunnerInterface":false,},
-    {"$GMExtensionFile":"","%Name":"","constants":[],"copyToTargets":9223372036854775807,"filename":"function_get_address.gml","final":"","functions":[
+    {"$GMExtensionFile":"","%Name":"","constants":[],"copyToTargets":9223372036854775807,"filename":"function_get_address_cs.gml","final":"","functions":[
         {"$GMExtensionFunction":"","%Name":"function_get_address","argCount":1,"args":[2,],"documentation":"","externalName":"function_get_address","help":"function_get_address(func)->ptr","hidden":false,"kind":2,"name":"function_get_address","resourceType":"GMExtensionFunction","resourceVersion":"2.0","returnType":2,},
       ],"init":"","kind":2,"name":"","order":[],"origname":"extensions\\gml.gml","ProxyFiles":[],"resourceType":"GMExtensionFile","resourceVersion":"2.0","uncompress":false,"usesRunnerInterface":false,},
     {"$GMExtensionFile":"","%Name":"","constants":[],"copyToTargets":-1,"filename":"autogen.gml","final":"","functions":[],"init":"","kind":2,"name":"","order":[],"origname":"extensions\\autogen.gml","ProxyFiles":[],"resourceType":"GMExtensionFile","resourceVersion":"2.0","uncompress":false,"usesRunnerInterface":false,},
@@ -49,7 +47,7 @@
   "maccompilerflags":"",
   "maclinkerflags":"",
   "macsourcedir":"",
-  "name":"function_get_address",
+  "name":"function_get_address_cs",
   "options":[],
   "optionsFile":"options.json",
   "packageId":"",

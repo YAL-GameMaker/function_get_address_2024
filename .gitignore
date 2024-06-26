@@ -4,6 +4,8 @@
 
 */extensions/*/*.cpp
 
+packages/
+
 */Debug/
 */Release/
 Debug/
