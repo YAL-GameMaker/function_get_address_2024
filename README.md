@@ -68,9 +68,11 @@ This small example DLL shows how to call built-in functions,
 as well as calling user-defined scripts.
 
 ## Limitations
-`YYRunnerInterface` is currently (Feb 2024) only implemented on desktop platforms,
-which means that using this on mobile/consoles requires additional legwork
+`YYRunnerInterface` is currently (June 2024) only implemented on desktop and console platforms,
+which means that using this on mobile requires additional legwork
 even though the core trick remains functional.
+
+HTML5 target does not need this because you can pass functions to JS extensions as-is (e.g. `ext_func(show_debug_message)`) - just remember that the first two arguments are `self, other`.
 
 ## Meta
 
